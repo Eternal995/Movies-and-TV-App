@@ -12,13 +12,50 @@
             BorderThickness: =0
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =126
+            Height: =170
             Width: =Parent.Width
             X: =0
             Y: =0
             ZIndex: =1
 
-            Header_2 As Header:
+            Header_Background_1 As rectangle:
+                Fill: =RGBA(0, 0, 0, 1)
+                Height: =60
+                Width: =1366
+                ZIndex: =1
+
+            Header_Background_2 As rectangle:
+                Fill: =RGBA(64, 64, 64, 1)
+                Height: =110
+                Width: =1366
+                Y: =60
+                ZIndex: =2
+
+            Label1_6 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =104
+                Size: =24
+                Text: ="Movies and TV App"
+                Width: =842
+                X: =4
+                Y: =63
+                ZIndex: =3
+
+            Button1 As button:
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =0
+                Height: =50
+                Text: ="Français"
+                Width: =100
+                X: =1241
+                ZIndex: =4
+
+            Header_OntarioLogo As image:
+                Height: =40
+                Image: ='ontario-logo--desktop'
+                X: =20
+                Y: =10
+                ZIndex: =6
 
         DataCard2 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
