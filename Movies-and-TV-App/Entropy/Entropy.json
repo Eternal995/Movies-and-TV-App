@@ -1,61 +1,103 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Header": 1
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "FooterContainer1": 9,
-    "HeaderContainer1": 7,
+    "Canvas1": 11,
+    "Dashboard": 4,
+    "DataCard2": 13,
+    "DataCard3": 14,
+    "DataCard4": 15,
+    "Header": 16,
+    "Header_2": 24,
+    "Header_DataCard": 12,
     "Host": 3,
-    "MainContainer1": 8,
-    "Screen1": 4,
-    "ScreenContainer1": 6
+    "Label1_5": 20,
+    "Ontario Logo_1": 18,
+    "Rectangle1": 17,
+    "Rectangle2": 19
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/15/2024 00:17:11",
+  "HeaderLastSavedDateTimeUTC": "04/15/2024 03:41:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "LocalResourceFileNames": {
+    "ontario-logo--desktop": "46f72c6a-64ea-4766-9c68-c2fb7772e12d.svg"
+  },
+  "LocalResourceRootPaths": {
+    "ontario-logo--desktop": "https://docserverpwaprodeca.blob.core.windows.net/7744a6cc-97e3-4a52-9e62-4ed020845ddb-1/resource/093ce21d-3550-4692-9e3d-837c2915b6d2.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-15T03%3A40%3A17Z&ske=2024-04-16T03%3A55%3A17Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-16T03%3A55%3A17Z&sr=b&sp=r&sig=Gx8VJChRjNpNWHKnxCCGzQlsDdvC8tH0FU7sv9U3LVE%3D"
+  },
+  "OrderComponentMetadata": {
+    "718ceb7d992e40739b3541a7b77dc765": 0
+  },
+  "OrderComponentTemplate": {
+    "718ceb7d992e40739b3541a7b77dc765": 0
+  },
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "groupContainer": 0
+    "fluidGrid": 0,
+    "image": 2,
+    "label": 3,
+    "rectangle": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "FooterContainer1": {},
-    "HeaderContainer1": {},
+    "Canvas1": {},
+    "Dashboard": {},
+    "DataCard2": {},
+    "DataCard3": {},
+    "DataCard4": {},
+    "Header": {},
+    "Header_2": {},
+    "Header_DataCard": {},
     "Host": {},
-    "MainContainer1": {},
-    "Screen1": {},
-    "ScreenContainer1": {}
+    "Label1_5": {},
+    "Ontario Logo_1": {},
+    "Rectangle1": {},
+    "Rectangle2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "FooterContainer1": 0,
-    "HeaderContainer1": 0,
+    "Canvas1": 0,
+    "Dashboard": 0,
+    "DataCard2": 0,
+    "DataCard3": 0,
+    "DataCard4": 0,
+    "Header": 2,
+    "Header_2": 2,
+    "Header_DataCard": 0,
     "Host": 0,
-    "MainContainer1": 0,
-    "Screen1": 0,
-    "ScreenContainer1": 0
+    "Label1_5": 3574,
+    "Ontario Logo_1": 3572,
+    "Rectangle1": 3571,
+    "Rectangle2": 3573
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-ontario-logo--desktop": 1,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0971937,
+    "AnalysisLoadTime": 0.1150708,
     "ControlCount": {
+      "718ceb7d992e40739b3541a7b77dc765": 2,
+      "groupContainer": 4,
+      "image": 1,
+      "label": 3,
+      "rectangle": 3,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.4961121
+    "DeserializationLoadTime": 0.8060222
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
