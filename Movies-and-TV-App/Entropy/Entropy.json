@@ -3,22 +3,23 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 31,
-    "Canvas1": 11,
+    "Canvas1": 5,
     "Dashboard": 4,
-    "DataCard2": 13,
-    "DataCard3": 14,
-    "DataCard4": 15,
-    "Header_Background_1": 26,
-    "Header_Background_2": 27,
-    "Header_DataCard": 12,
-    "Header_OntarioLogo": 34,
-    "Host": 3,
-    "Label1_6": 29
+    "DataCard2": 12,
+    "DataCard3": 13,
+    "Footer_DataCard": 14,
+    "Header_AppName_Text": 11,
+    "Header_BlackBar": 8,
+    "Header_BlackBar_1": 15,
+    "Header_DataCard": 6,
+    "Header_French_Button": 9,
+    "Header_GreyBar": 10,
+    "Header_OntarioLogo": 7,
+    "Host": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/15/2024 03:51:14",
+  "HeaderLastSavedDateTimeUTC": "04/15/2024 04:04:44",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -26,7 +27,7 @@
     "ontario-logo--desktop": "46f72c6a-64ea-4766-9c68-c2fb7772e12d.svg"
   },
   "LocalResourceRootPaths": {
-    "ontario-logo--desktop": "https://docserverpwaprodeca.blob.core.windows.net/7744a6cc-97e3-4a52-9e62-4ed020845ddb-1/resource/093ce21d-3550-4692-9e3d-837c2915b6d2.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-15T03%3A40%3A17Z&ske=2024-04-16T03%3A55%3A17Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-16T03%3A55%3A17Z&sr=b&sp=r&sig=Gx8VJChRjNpNWHKnxCCGzQlsDdvC8tH0FU7sv9U3LVE%3D"
+    "ontario-logo--desktop": "https://docserverpwaprodcca.blob.core.windows.net/3c1030d2-ee1e-4de7-a6ae-514ce8b4da23-1/resource/Assets0Images046f72c6a-64ea-4766-9c68-c2fb7772e12d.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-15T03%3A51%3A29Z&ske=2024-04-16T04%3A06%3A29Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-16T04%3A06%3A29Z&sr=b&sp=r&sig=ps1X%2FIrUXf%2BGSqCo5alhkD0%2FiPAtU6V3PLDWsvOEJAo%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -37,41 +38,43 @@
   "OrderXMLTemplate": {
     "button": 3,
     "fluidGrid": 0,
-    "image": 1,
+    "image": 2,
     "label": 4,
-    "rectangle": 2
+    "rectangle": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Button1": {},
     "Canvas1": {},
     "Dashboard": {},
     "DataCard2": {},
     "DataCard3": {},
-    "DataCard4": {},
-    "Header_Background_1": {},
-    "Header_Background_2": {},
+    "Footer_DataCard": {},
+    "Header_AppName_Text": {},
+    "Header_BlackBar": {},
+    "Header_BlackBar_1": {},
     "Header_DataCard": {},
+    "Header_French_Button": {},
+    "Header_GreyBar": {},
     "Header_OntarioLogo": {},
-    "Host": {},
-    "Label1_6": {}
+    "Host": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 4,
     "Canvas1": 0,
     "Dashboard": 0,
     "DataCard2": 7,
     "DataCard3": 8,
-    "DataCard4": 9,
-    "Header_Background_1": 2,
-    "Header_Background_2": 5,
+    "Footer_DataCard": 9,
+    "Header_AppName_Text": 6,
+    "Header_BlackBar": 2,
+    "Header_BlackBar_1": 2,
     "Header_DataCard": 1,
-    "Header_OntarioLogo": 0,
-    "Host": 0,
-    "Label1_6": 6
+    "Header_French_Button": 4,
+    "Header_GreyBar": 5,
+    "Header_OntarioLogo": 3,
+    "Host": 0
   },
   "ResourcesJsonIndices": {
     "Image-ontario-logo--desktop": 1,
@@ -80,16 +83,17 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1150708,
+    "AnalysisLoadTime": 0.1302101,
     "ControlCount": {
-      "718ceb7d992e40739b3541a7b77dc765": 2,
-      "groupContainer": 4,
-      "image": 2,
-      "label": 4,
-      "rectangle": 5,
+      "button": 1,
+      "dataCard": 4,
+      "fluidGrid": 1,
+      "image": 1,
+      "label": 1,
+      "rectangle": 3,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.8060222
+    "DeserializationLoadTime": 1.2562489
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
