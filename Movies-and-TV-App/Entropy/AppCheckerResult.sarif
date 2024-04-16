@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Canvas1.Header_DataCard.Header_OntarioLogo.AccessibleLabel"
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.Header_DataCard.Header_OntarioLogo.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Canvas1.Header_DataCard.Header_OntarioLogo.AccessibleLabel",
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.Header_DataCard.Header_OntarioLogo.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Dashboard",
-                "type": "Dashboard.Canvas1.Header_DataCard.Header_OntarioLogo"
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.Header_DataCard.Header_OntarioLogo"
               }
             }
           ],
@@ -44,19 +44,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Dashboard.Canvas1.Header_DataCard.Header_OntarioLogo.TabIndex"
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.Header_DataCard.Header_OntarioLogo.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Dashboard.Canvas1.Header_DataCard.Header_OntarioLogo.TabIndex",
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.Header_DataCard.Header_OntarioLogo.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Dashboard",
-                "type": "Dashboard.Canvas1.Header_DataCard.Header_OntarioLogo"
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.Header_DataCard.Header_OntarioLogo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DetailedView",
+                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "DetailedView",
+                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
               }
             }
           ],
@@ -110,7 +170,7 @@
               }
             }
           ],
-          "version": "1.339"
+          "version": "1.341"
         }
       }
     }

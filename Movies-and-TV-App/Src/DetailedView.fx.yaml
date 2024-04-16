@@ -1,12 +1,12 @@
-"Dashboard As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+"DetailedView As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
 
-    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+    DetailedViewWindow As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
         Height: =Parent.Height - Self.Y
         Width: =Parent.Width
         ZIndex: =3
 
-        Header_DataCard As dataCard:
+        Header_DataCard_1 As dataCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             BorderThickness: =0
@@ -18,20 +18,20 @@
             Y: =0
             ZIndex: =1
 
-            Header_BlackBar As rectangle:
+            Header_BlackBar_2 As rectangle:
                 Fill: =RGBA(0, 0, 0, 1)
                 Height: =60
                 Width: =1366
                 ZIndex: =1
 
-            Header_GreyBar As rectangle:
+            Header_GreyBar_1 As rectangle:
                 Fill: =RGBA(64, 64, 64, 1)
                 Height: =110
                 Width: =1366
                 Y: =60
                 ZIndex: =2
 
-            Header_AppName_Text As label:
+            Header_AppName_Text_1 As label:
                 Color: =RGBA(255, 255, 255, 1)
                 Height: =110
                 Size: =24
@@ -41,7 +41,7 @@
                 Y: =60
                 ZIndex: =3
 
-            Header_French_Button As button:
+            Header_French_Button_1 As button:
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =0
                 Fill: =RGBA(0, 0, 0, 1)
@@ -54,7 +54,7 @@
                 Y: =10
                 ZIndex: =4
 
-            Header_OntarioLogo As image:
+            Header_OntarioLogo_1 As image:
                 Height: =40
                 Image: ='ontario-logo--desktop'
                 OnSelect: |-
@@ -63,7 +63,7 @@
                 Y: =10
                 ZIndex: =6
 
-        DataCard2 As dataCard.blankCard:
+        DataCard2_1 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
@@ -74,7 +74,7 @@
             Y: =1
             ZIndex: =2
 
-        DataCard3 As dataCard.blankCard:
+        DataCard3_1 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
@@ -85,7 +85,7 @@
             Y: =2
             ZIndex: =3
 
-        Footer_DataCard As dataCard.blankCard:
+        Footer_DataCard_1 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
@@ -96,13 +96,13 @@
             Y: =3
             ZIndex: =4
 
-            Header_BlackBar_1 As rectangle:
+            Header_BlackBar_3 As rectangle:
                 Fill: =RGBA(0, 0, 0, 1)
                 Height: =140
                 Width: =1366
                 ZIndex: =1
 
-            Button1 As button:
+            Button1_5 As button:
                 Align: =Align.Left
                 BorderStyle: =BorderStyle.None
                 DisabledBorderColor: =RGBA(0, 0, 0, 1)
@@ -122,7 +122,7 @@
                 Y: =20
                 ZIndex: =3
 
-            Button1_1 As button:
+            Button1_4 As button:
                 Align: =Align.Left
                 BorderStyle: =BorderStyle.None
                 DisabledBorderColor: =RGBA(0, 0, 0, 1)
@@ -142,7 +142,7 @@
                 Y: =20
                 ZIndex: =4
 
-            Button1_2 As button:
+            Button1_6 As button:
                 Align: =Align.Left
                 BorderStyle: =BorderStyle.None
                 DisabledBorderColor: =RGBA(0, 0, 0, 1)
@@ -160,7 +160,7 @@
                 Y: =20
                 ZIndex: =5
 
-            Button1_3 As button:
+            Button1_7 As button:
                 Align: =Align.Left
                 BorderStyle: =BorderStyle.None
                 DisabledBorderColor: =RGBA(0, 0, 0, 1)
