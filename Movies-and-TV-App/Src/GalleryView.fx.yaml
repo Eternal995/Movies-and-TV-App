@@ -77,7 +77,7 @@
             ButtonCanvas1 As Button:
                 DisplayMode: =DisplayMode.Edit
                 Height: =32
-                OnSelect: =GetMovieByTitle.Run("Hello");
+                OnSelect: =Set(SearchMovie, GetMovieByTitle.Run("Hello"));
                 Width: =96
                 X: =355
                 Y: =35
