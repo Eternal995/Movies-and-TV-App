@@ -74,6 +74,12 @@
             Y: =1
             ZIndex: =2
 
+            Label2 As label:
+                Text: =SelectedMovie.Title
+                X: =160
+                Y: =30
+                ZIndex: =1
+
         DataCard3_1 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
