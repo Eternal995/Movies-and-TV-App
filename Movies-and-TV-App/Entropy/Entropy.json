@@ -3,58 +3,60 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 33,
-    "Button1_1": 32,
-    "Button1_2": 34,
-    "Button1_3": 35,
-    "Button1_4": 16,
-    "Button1_5": 17,
-    "Button1_6": 18,
-    "Button1_7": 19,
-    "DataCard2": 28,
-    "DataCard2_1": 12,
-    "DataCard3": 29,
-    "DataCard3_1": 13,
-    "DetailedView": 4,
-    "DetailedViewWindow": 5,
-    "Footer_DataCard": 30,
-    "Footer_DataCard_1": 14,
-    "GalleryView": 20,
-    "GalleryViewWindow": 21,
-    "Header_AppName_Text": 27,
-    "Header_AppName_Text_1": 11,
-    "Header_BlackBar": 23,
-    "Header_BlackBar_1": 31,
-    "Header_BlackBar_2": 7,
-    "Header_BlackBar_3": 15,
-    "Header_DataCard": 22,
-    "Header_DataCard_1": 6,
-    "Header_French_Button": 25,
-    "Header_French_Button_1": 9,
-    "Header_GreyBar": 26,
-    "Header_GreyBar_1": 10,
-    "Header_OntarioLogo": 24,
-    "Header_OntarioLogo_1": 8,
+    "Button1": 17,
+    "Button1_1": 16,
+    "Button1_2": 18,
+    "Button1_3": 19,
+    "Button1_4": 32,
+    "Button1_5": 33,
+    "Button1_6": 34,
+    "Button1_7": 35,
+    "DataCard2": 12,
+    "DataCard2_1": 28,
+    "DataCard3": 13,
+    "DataCard3_1": 29,
+    "DetailedView": 20,
+    "DetailedViewWindow": 21,
+    "Footer_DataCard": 14,
+    "Footer_DataCard_1": 30,
+    "GalleryView": 4,
+    "GalleryViewWindow": 5,
+    "Header_AppName_Text": 11,
+    "Header_AppName_Text_1": 27,
+    "Header_BlackBar": 7,
+    "Header_BlackBar_1": 15,
+    "Header_BlackBar_2": 23,
+    "Header_BlackBar_3": 31,
+    "Header_DataCard": 6,
+    "Header_DataCard_1": 22,
+    "Header_French_Button": 9,
+    "Header_French_Button_1": 25,
+    "Header_GreyBar": 10,
+    "Header_GreyBar_1": 26,
+    "Header_OntarioLogo": 8,
+    "Header_OntarioLogo_1": 24,
     "Host": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/16/2024 04:45:25",
+  "HeaderLastSavedDateTimeUTC": "04/16/2024 04:52:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "32b9fee6-54e1-4918-aff9-3a402bf57083": "\"/providers/Microsoft.PowerApps/apis/shared_logicflows/connections/184E244E6AD04356B5CADC5B5290CFF9-49A00A679B44357A\""
+    "32b9fee6-54e1-4918-aff9-3a402bf57083": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/184e244e6ad04356b5cadc5b5290cff9-49a00a679b44357a\"",
+    "af6bdcf3-5d76-4f2f-a967-c29bff26f155": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-996e34ad-08ea-4166-a7ac-4e989d479580\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {
     "ontario-logo--desktop": "46f72c6a-64ea-4766-9c68-c2fb7772e12d.svg"
   },
   "LocalResourceRootPaths": {
-    "ontario-logo--desktop": "https://docserverpwaprodeca.blob.core.windows.net/198f4bfe-d164-4c33-85ad-d0fad4fdbd0d-1/resource/Assets0Images046f72c6a-64ea-4766-9c68-c2fb7772e12d.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-16T04%3A44%3A25Z&ske=2024-04-17T04%3A59%3A25Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-17T04%3A59%3A25Z&sr=b&sp=r&sig=6%2Bb8M3IDAQ7bcJYqCAVfx1aZL%2BIMAHLAdxclWn36rGg%3D"
+    "ontario-logo--desktop": "https://docserverpwaprodeca.blob.core.windows.net/a08fc5da-0daa-4060-9cf0-ce5f33401985-1/resource/Assets0Images046f72c6a-64ea-4766-9c68-c2fb7772e12d.svg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-16T04%3A51%3A37Z&ske=2024-04-17T05%3A06%3A37Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-17T05%3A06%3A37Z&sr=b&sp=r&sig=N%2BUoKISmVejgInXibMYMJM9zr4DuLWlrqgmryJXbgVc%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "GetMovieByTitle": 0
+    "GetMovieByTitle": 0,
+    "Movies and TV App": 1
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
@@ -147,7 +149,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2054167,
+    "AnalysisLoadTime": 0.2060442,
     "ControlCount": {
       "button": 10,
       "dataCard": 8,
@@ -157,7 +159,7 @@
       "rectangle": 6,
       "screen": 2
     },
-    "DeserializationLoadTime": 0.6997847
+    "DeserializationLoadTime": 0.8472354
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

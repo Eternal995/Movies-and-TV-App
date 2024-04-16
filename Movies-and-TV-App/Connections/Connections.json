@@ -34,5 +34,27 @@
     "dependencies": {},
     "dependents": [],
     "id": "32b9fee6-54e1-4918-aff9-3a402bf57083"
+  },
+  "af6bdcf3-5d76-4f2f-a967-c29bff26f155": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1682/1.0.1682.3675/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://ontariogov-my.sharepoint.com/personal/yongda_long_ontario_ca": {
+        "dataSources": {
+          "Movies and TV App": {
+            "tableName": "86fa8fd2-599b-425a-95de-8a15e16c999c"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Movies and TV App"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "af6bdcf3-5d76-4f2f-a967-c29bff26f155"
   }
 }
