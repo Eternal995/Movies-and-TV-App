@@ -14,66 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "DetailedView",
-                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "DetailedView",
-                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "GalleryView.GalleryViewWindow.Header_DataCard.Header_OntarioLogo.AccessibleLabel"
                 }
               ],
@@ -134,36 +74,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard2.ButtonCanvas1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard2.ButtonCanvas1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.DataCard2.ButtonCanvas1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard2.MovieSearch.AccessibleLabel"
                 }
               ],
@@ -194,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard2.ButtonCanvas1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard2.ButtonCanvas1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.DataCard3.Gallery2"
+                "type": "GalleryView.GalleryViewWindow.DataCard2.ButtonCanvas1"
               }
             }
           ],
@@ -224,49 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.TabIndex"
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.DataCard3.Gallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.Image3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.Image3.AccessibleLabel",
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.Image3"
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery"
               }
             }
           ],
@@ -284,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.Image3.TabIndex"
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.Image3.TabIndex",
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.Image3"
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery"
               }
             }
           ],
@@ -314,19 +194,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.NextArrow2.TabIndex"
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.NextArrow2.TabIndex",
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.DataCard3.Gallery2.NextArrow2"
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year"
               }
             }
           ],
@@ -338,6 +248,276 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DetailedView",
+                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "DetailedView",
+                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.OnList"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.OnList",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "OnList",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 3
         }
       ],
       "tool": {
@@ -377,6 +557,40 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-FocusBorderShouldBeVisible",
+              "messageStrings": {
+                "issue": {
+                  "text": "Focus isn't showing"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the FocusedBorderThickness property to be more than 0."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused variable"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused variable."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
               }
             }
           ],
