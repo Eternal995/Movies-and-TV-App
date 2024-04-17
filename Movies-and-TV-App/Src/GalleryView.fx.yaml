@@ -34,9 +34,9 @@
             Header_AppName_Text As label:
                 Color: =RGBA(255, 255, 255, 1)
                 Height: =110
-                Size: =24
+                Size: =30
                 Text: ="Movies and TV App"
-                Width: =300
+                Width: =500
                 X: =10
                 Y: =60
                 ZIndex: =3
@@ -68,7 +68,7 @@
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =400
+            Height: =150
             Width: =1366
             X: =0
             Y: =1
@@ -82,16 +82,16 @@
                 OnSelect: =Set(SearchMovie, GetMovieByTitle.Run(MovieSearch.Text));
                 Text: ="Search"
                 Width: =96
-                X: =245
-                Y: =120
+                X: =670
+                Y: =57
                 ZIndex: =1
 
             MovieSearch As text:
                 Default: ="Search Movie"
                 Height: =42
                 Width: =170
-                X: =20
-                Y: =115
+                X: =374
+                Y: =52
                 ZIndex: =4
 
             Button2 As button:
@@ -105,8 +105,8 @@
                         PosterURL: SearchMovie.posterurl
                     });
                 Text: ="Add"
-                X: =775
-                Y: =120
+                X: =1113
+                Y: =49
                 ZIndex: =5
 
         GalleryCard As dataCard.blankCard:
@@ -114,25 +114,35 @@
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =1600
+            Height: =1100
             Width: =1366
             X: =0
             Y: =2
             ZIndex: =3
 
+            GalleryTitleBackground As rectangle:
+                Fill: =RGBA(214, 221, 224, 1)
+                Width: =1353
+                ZIndex: =1
+
             "MoviesGallery As gallery.'BrowseLayout_Vertical_OneImageTwoColumnVariant_ver5.0'":
                 BorderColor: =RGBA(0, 0, 0, 1)
                 DelayItemLoading: =true
-                Height: =1550
-                Items: ='Movies and TV App'
+                Height: =1000
+                Items: |-
+                    =If(
+                        IsBlank(GallerySearchInput.Text),
+                        'Movies and TV App',
+                        Search('Movies and TV App', GallerySearchInput.Text, Title)
+                    )
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =20
                 TemplateSize: =300
                 Width: =1366
                 WrapCount: =2
-                Y: =50
-                ZIndex: =1
+                Y: =100
+                ZIndex: =2
 
                 Poster As image:
                     Height: =300
@@ -216,6 +226,32 @@
                     X: =220
                     Y: =15
                     ZIndex: =7
+
+            GalleryTitle As label:
+                FontWeight: =FontWeight.Bold
+                Height: =60
+                Size: =26
+                Text: ="Movies in the List"
+                Width: =400
+                X: =20
+                Y: =20
+                ZIndex: =3
+
+            GallerySearchInput As text:
+                Default: =""
+                HintText: ="Search in the list"
+                Width: =200
+                X: =940
+                Y: =30
+                ZIndex: =4
+
+            GallerySearchReset As button:
+                OnSelect: =Reset(GallerySearchInput)
+                Text: ="Reset"
+                Width: =120
+                X: =1193
+                Y: =30
+                ZIndex: =5
 
         Footer_DataCard As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
