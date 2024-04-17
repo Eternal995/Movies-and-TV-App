@@ -14,36 +14,40 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Items"
+                  "fullyQualifiedName": "App.OnStart"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Items",
+                  "fullyQualifiedName": "App.OnStart",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 44,
+                  "charLength": 32,
+                  "charOffset": 0,
                   "snippet": {
-                    "text": ")"
+                    "text": "ClearCollect(\r\n    MoviesList\r\n)"
                   }
                 }
               },
               "properties": {
-                "member": "Items",
-                "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery"
+                "member": "OnStart",
+                "module": "App",
+                "type": "App"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "1",
+              "2"
+            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrBadToken",
+          "ruleId": "app-ErrBadArityMinimum",
           "ruleIndex": 0
         },
         {
@@ -60,9 +64,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 45,
+                  "charLength": 24,
+                  "charOffset": 0,
                   "snippet": {
-                    "text": ""
+                    "text": "Search(\n    MoviesList\n)"
                   }
                 }
               },
@@ -75,15 +80,55 @@
           ],
           "message": {
             "arguments": [
-              "Eof",
-              "ParenClose"
+              "1",
+              "3"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleId": "app-ErrBadArityMinimum",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".PosterURL"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "PosterURL"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
         },
         {
@@ -91,80 +136,240 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Items"
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Items",
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title.Text",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 44,
+                  "charLength": 6,
+                  "charOffset": 8,
                   "snippet": {
-                    "text": ")"
+                    "text": ".Title"
                   }
                 }
               },
               "properties": {
-                "member": "Items",
+                "member": "Text",
                 "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery"
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Title"
               }
             }
           ],
           "message": {
             "arguments": [
-              "<error>"
+              "Title"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrExpectedIdentifierArg-Name",
-          "ruleIndex": 2
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Items"
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Items",
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year.Text",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 6,
-                  "charOffset": 0,
+                  "charLength": 5,
+                  "charOffset": 8,
                   "snippet": {
-                    "text": "Search"
+                    "text": ".Year"
                   }
                 }
               },
               "properties": {
-                "member": "Items",
+                "member": "Text",
                 "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery"
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Year"
               }
             }
           ],
           "message": {
             "arguments": [
-              "Search"
+              "Year"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 3
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Genre"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Genre"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Genre"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 21,
+                  "snippet": {
+                    "text": ".Actors"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Actors"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Actors"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Plot.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Plot.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 19,
+                  "snippet": {
+                    "text": ".Plot"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Plot"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Plot"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.DataCard2_1.Label2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.DataCard2_1.Label2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 13,
+                  "snippet": {
+                    "text": ".Title"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "DetailedView",
+                "type": "DetailedView.DetailedViewWindow.DataCard2_1.Label2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Title"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -194,7 +399,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -224,7 +429,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -254,7 +459,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -284,7 +489,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -314,7 +519,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -344,7 +549,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -374,7 +579,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -404,7 +609,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -434,7 +639,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -464,7 +669,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -494,7 +699,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -524,7 +729,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -554,7 +759,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -584,7 +789,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 6
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -614,7 +819,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -644,7 +849,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -674,7 +879,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -704,37 +909,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.OnStart"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.OnStart",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "OnStart",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-CollectDelegatableDataSource",
-          "ruleIndex": 8
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -743,62 +918,31 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrBadToken",
+              "id": "app-ErrBadArityMinimum",
               "messageStrings": {
                 "issue": {
-                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
+                  "text": "Invalid number of arguments: received {0}, expected {1} or more."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remove or replace the unexpected characters."
+                  "Remove or correct the reference to the name that isn't valid."
                 ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrExpectedFound-Ex-Fnd",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters with an expected character."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrExpectedIdentifierArg-Name",
-              "messageStrings": {
-                "issue": {
-                  "text": "Expected identifier name"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
@@ -870,23 +1014,6 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
-              }
-            },
-            {
-              "id": "app-CollectDelegatableDataSource",
-              "messageStrings": {
-                "issue": {
-                  "text": "The rows retrieved from the data source may not be complete."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Limit the data collected from the data source by updating the formula \"ClearCollect(MoviesList, 'Movies and TV App')\" to include a filtering function, such as 'Filter' or 'Search'."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Using the 'Collect' function to create a collection directly from a connected data source may not load every row if the data source is too large."
               }
             }
           ],

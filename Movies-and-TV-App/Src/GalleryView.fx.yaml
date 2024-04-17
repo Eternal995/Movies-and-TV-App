@@ -131,8 +131,7 @@
                 Height: =1000
                 Items: |-
                     =Search(
-                        'Movies and TV App',
-                        "123",
+                        MoviesList
                     )
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
