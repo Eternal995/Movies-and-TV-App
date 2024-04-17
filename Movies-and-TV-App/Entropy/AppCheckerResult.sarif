@@ -24,7 +24,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 127,
+                  "charOffset": 53,
                   "snippet": {
                     "text": "Title"
                   }
@@ -63,10 +63,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 136,
+                  "charLength": 59,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "If(\r\n    IsBlank(GallerySearchInput.Text),\r\n    'Movies and TV App',\r\n    Search('Movies and TV App', GallerySearchInput.Text, Title)\r\n)"
+                    "text": "Search('Movies and TV App', GallerySearchInput.Text, Title)"
                   }
                 }
               },
@@ -85,66 +85,6 @@
           },
           "ruleId": "app-ErrCycleDetected",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "DetailedView",
-                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "DetailedView",
-                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
         },
         {
           "locations": [
@@ -271,6 +211,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.GallerySearchInput.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.GallerySearchInput.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.GallerySearchInput"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.AccessibleLabel"
                 }
               ],
@@ -331,36 +301,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster.AccessibleLabel"
                 }
               ],
@@ -385,6 +325,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "GalleryView",
+                "type": "GalleryView.GalleryViewWindow.GalleryCard.MoviesGallery.Poster"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -571,19 +541,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.GallerySearchInput.AccessibleLabel"
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GalleryView.GalleryViewWindow.GalleryCard.GallerySearchInput.AccessibleLabel",
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "GalleryView",
-                "type": "GalleryView.GalleryViewWindow.GalleryCard.GallerySearchInput"
+                "module": "DetailedView",
+                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
               }
             }
           ],
@@ -595,6 +565,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "DetailedView",
+                "type": "DetailedView.DetailedViewWindow.Header_DataCard_1.Header_OntarioLogo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
         },
         {
           "locations": [

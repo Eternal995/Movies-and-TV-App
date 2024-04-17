@@ -129,12 +129,7 @@
                 BorderColor: =RGBA(0, 0, 0, 1)
                 DelayItemLoading: =true
                 Height: =1000
-                Items: |-
-                    =If(
-                        IsBlank(GallerySearchInput.Text),
-                        'Movies and TV App',
-                        Search('Movies and TV App', GallerySearchInput.Text, Title)
-                    )
+                Items: =Search('Movies and TV App', GallerySearchInput.Text, Title)
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =20
