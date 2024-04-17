@@ -134,7 +134,7 @@
                 PaddingRight: =0
                 PaddingTop: =0
                 Text: =If(EmptyErrorVis, "Title cannot be empty.","This Movie is already exist in the list.")
-                Visible: =AlreadyExistErrorVis
+                Visible: =AlreadyExistErrorVis || EmptyErrorVis
                 Width: =320
                 X: =940
                 Y: =120
