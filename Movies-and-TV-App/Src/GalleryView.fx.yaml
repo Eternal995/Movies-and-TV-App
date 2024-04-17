@@ -121,8 +121,9 @@
             ZIndex: =3
 
             "MoviesGallery As gallery.'BrowseLayout_Vertical_OneImageTwoColumnVariant_ver5.0'":
+                BorderColor: =RGBA(0, 0, 0, 1)
                 DelayItemLoading: =true
-                Height: =1500
+                Height: =1550
                 Items: ='Movies and TV App'
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
@@ -130,36 +131,23 @@
                 TemplateSize: =300
                 Width: =1366
                 WrapCount: =2
-                Y: =100
+                Y: =50
                 ZIndex: =1
 
                 Poster As image:
                     Height: =300
                     Image: =ThisItem.PosterURL
                     ImagePosition: =ImagePosition.Stretch
-                    OnSelect: =Select(Parent)
+                    OnSelect: |-
+                        =Set(SelectedMovie, ThisItem);
+                        Set(OnList, true);
+                        Navigate(DetailedView);
                     RadiusBottomLeft: =8
                     RadiusBottomRight: =8
                     RadiusTopLeft: =8
                     RadiusTopRight: =8
                     Width: =200
                     ZIndex: =1
-
-                Title As label:
-                    AutoHeight: =true
-                    DisplayMode: =DisplayMode.View
-                    FontWeight: =FontWeight.Bold
-                    OnSelect: |-
-                        =Set(SelectedMovie, ThisItem);
-                        Set(OnList, true);
-                        Navigate(DetailedView);
-                    Size: =24
-                    Text: =ThisItem.Title
-                    Width: =432
-                    Wrap: =false
-                    X: =220
-                    Y: =10
-                    ZIndex: =2
 
                 Year As label:
                     AutoHeight: =true
@@ -193,7 +181,7 @@
                     Y: =130
                     ZIndex: =5
 
-                Label6 As label:
+                Plot As label:
                     AutoHeight: =true
                     DisplayMode: =DisplayMode.View
                     OnSelect: =Select(Parent)
@@ -203,6 +191,31 @@
                     X: =220
                     Y: =192
                     ZIndex: =6
+
+                Title As button:
+                    Align: =Align.Left
+                    BorderColor: =RGBA(255,255,255,1)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =0
+                    Color: =RGBA(15, 108, 189, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    HoverBorderColor: =RGBA(255,255,255,1)
+                    HoverColor: =RGBA(15, 108, 189, 1)
+                    HoverFill: =RGBA(255,255,255,1)
+                    OnSelect: |-
+                        =Set(SelectedMovie, ThisItem);
+                        Set(OnList, true);
+                        Navigate(DetailedView);
+                    PressedBorderColor: =RGBA(255,255,255,1)
+                    PressedColor: =RGBA(0,0,0,1)
+                    PressedFill: =RGBA(255,255,255,1)
+                    Size: =24
+                    Text: =ThisItem.Title
+                    Width: =432
+                    X: =220
+                    Y: =15
+                    ZIndex: =7
 
         Footer_DataCard As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
