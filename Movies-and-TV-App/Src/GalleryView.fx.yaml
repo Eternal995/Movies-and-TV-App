@@ -99,7 +99,7 @@
                             IsBlankOrError(LookUp('Movies and TV App', Title = MovieSearchInput.Text)),
                             Set(SelectedMovie, GetMovieByTitle.Run(MovieSearchInput.Text));
                             If(
-                                SelectedMovie.status = "false", 
+                                SelectedMovie.status = "False", 
                                 Set(NotFoundErrorVis, true), 
                                 Set(OnList, false);
                                 Navigate(DetailedView);
