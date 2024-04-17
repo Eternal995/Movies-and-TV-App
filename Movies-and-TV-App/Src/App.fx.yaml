@@ -2,7 +2,8 @@ App As appinfo:
     BackEnabled: =true
     OnStart: |-
         =ClearCollect(
-            MoviesList
+            MoviesList, 
+            'Movies and TV App'
         );
     Theme: =PowerAppsTheme
 
