@@ -83,7 +83,10 @@
                         Genre: SelectedMovie.genre,
                         Actors: SelectedMovie.actors,
                         Plot: SelectedMovie.plot,
-                        PosterURL: SelectedMovie.posterurl
+                        PosterURL: SelectedMovie.posterurl,
+                        imdbRating: SelectedMovie.imdbrating,
+                        Country: SelectedMovie.country,
+                        Language: SelectedMovie.language
                     });
                     Navigate(GalleryView);
                 Text: ="Add"
@@ -161,7 +164,7 @@
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =700
+            Height: =720
             Width: =1366
             X: =0
             Y: =2
@@ -169,7 +172,7 @@
 
             Image1 As image:
                 Height: =600
-                Image: =SelectedMovie.posterurl
+                Image: =If(OnList,SelectedMovie.PosterURL ,SelectedMovie.posterurl)
                 ImagePosition: =ImagePosition.Stretch
                 Width: =400
                 X: =50
@@ -180,7 +183,7 @@
                 AutoHeight: =true
                 Size: =26
                 Text: |-
-                    ="Title: " & SelectedMovie.title
+                    ="Title: " & If(OnList, SelectedMovie.Title, SelectedMovie.Title)
                 Width: =800
                 X: =480
                 Y: =50
@@ -190,7 +193,7 @@
                 AutoHeight: =true
                 Size: =26
                 Text: |-
-                    ="Year: " & SelectedMovie.year
+                    ="Year: " & If(OnList, SelectedMovie.Year, SelectedMovie.year)
                 Width: =800
                 X: =480
                 Y: =104
@@ -200,7 +203,7 @@
                 AutoHeight: =true
                 Size: =26
                 Text: |-
-                    ="Genre: " & SelectedMovie.genre
+                    ="Genre: " & If(OnList, SelectedMovie.Genre, SelectedMovie.genre)
                 Width: =800
                 X: =480
                 Y: =158
@@ -210,21 +213,51 @@
                 AutoHeight: =true
                 Size: =26
                 Text: |-
-                    ="Actors: " & SelectedMovie.actors
+                    ="Actors: " & If(OnList, SelectedMovie.Actors, SelectedMovie.actors)
                 Width: =800
                 X: =480
-                Y: =334
+                Y: =374
                 ZIndex: =5
 
             Label4_4 As label:
                 AutoHeight: =true
                 Size: =26
                 Text: |-
-                    ="Plot: " & SelectedMovie.plot
+                    ="Plot: " & If(OnList, SelectedMovie.Plot, SelectedMovie.plot)
                 Width: =800
                 X: =480
-                Y: =430
+                Y: =470
                 ZIndex: =6
+
+            Label4_5 As label:
+                AutoHeight: =true
+                Size: =26
+                Text: |-
+                    ="IMDb Rating: " & If(OnList, SelectedMovie.imdbRating, SelectedMovie.imdbrating)
+                Width: =800
+                X: =480
+                Y: =212
+                ZIndex: =7
+
+            Label4_6 As label:
+                AutoHeight: =true
+                Size: =26
+                Text: |-
+                    ="Country: " & If(OnList, SelectedMovie.Country, SelectedMovie.country)
+                Width: =800
+                X: =480
+                Y: =266
+                ZIndex: =8
+
+            Label4_7 As label:
+                AutoHeight: =true
+                Size: =26
+                Text: |-
+                    ="Language: " & If(OnList, SelectedMovie.Language, SelectedMovie.language)
+                Width: =800
+                X: =480
+                Y: =320
+                ZIndex: =9
 
         Footer_DataCard_1 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)

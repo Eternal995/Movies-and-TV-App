@@ -13,6 +13,9 @@
       <string name="ResponseActionOutput_actors_def" />
       <string name="ResponseActionOutput_plot_def" />
       <string name="ResponseActionOutput_status_def" />
+      <string name="ResponseActionOutput_imdbrating_def" />
+      <string name="ResponseActionOutput_language_def" />
+      <string name="ResponseActionOutput_country_def" />
       <object name="ResponseActionOutput">
         <property name="posterurl" type="string" />
         <property name="title" type="string" />
@@ -21,6 +24,9 @@
         <property name="actors" type="string" />
         <property name="plot" type="string" />
         <property name="status" type="string" />
+        <property name="imdbrating" type="string" />
+        <property name="language" type="string" />
+        <property name="country" type="string" />
       </object>
       <object name="Run_responses_default_def" />
     </jsonTypes>

@@ -1,7 +1,7 @@
 [
   {
     "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
-    "FlowNameId": "687d2a80-8338-423f-a839-7ec4fc598dec",
+    "FlowNameId": "d02990f7-7547-4ab6-9d99-06b1af4412c4",
     "Name": "GetMovieByTitle",
     "ServiceKind": "ConnectedWadl",
     "Type": "ServiceInfo",
