@@ -74,13 +74,8 @@
             Y: =1
             ZIndex: =2
 
-            Label2 As label:
-                Text: =SelectedMovie.Title
-                X: =320
-                Y: =56
-                ZIndex: =1
-
             Button2 As button:
+                Height: =50
                 OnSelect: |-
                     =Patch('Movies and TV App',Defaults('Movies and TV App'), {
                         Title: SearchMovie.title,
@@ -91,15 +86,11 @@
                         PosterURL: SearchMovie.posterurl
                     });
                 Text: ="Add"
-                X: =580
-                Y: =32
+                Visible: =!OnList
+                Width: =200
+                X: =946
+                Y: =27
                 ZIndex: =2
-
-            Label3 As label:
-                Text: =If(OnList, "Onlist", "NotOnList")
-                X: =320
-                Y: =16
-                ZIndex: =3
 
             Button45_3 As button:
                 BorderColor: =RGBA(0, 0, 0, 1)
@@ -133,6 +124,34 @@
                 X: =54
                 Y: =20
                 ZIndex: =5
+
+            Label1_2 As label:
+                Size: =14
+                Text: |-
+                    =If(
+                        OnList,
+                        "This Item is in the list, press Delete to remove from the list.",
+                        "This Item is not in the list, press Add to add in the list."
+                    )
+                Width: =600
+                X: =366
+                Y: =32
+                ZIndex: =6
+
+            Button3 As button:
+                BorderColor: =RGBA(255, 0, 0, 1)
+                Color: =RGBA(255, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                HoverFill: =RGBA(255, 0, 0, 1)
+                OnSelect: =RemoveIf('Movies and TV App', Title = SelectedMovie.Title);
+                PressedBorderColor: =RGBA(255, 0, 0, 1)
+                Text: ="Delete"
+                Visible: =OnList
+                Width: =200
+                X: =946
+                Y: =27
+                ZIndex: =7
 
         DataCard3_1 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
