@@ -86,17 +86,21 @@
                 ZIndex: =4
 
             GallerySearchReset_1 As button:
-                OnSelect: |
+                OnSelect: |+
                     =If(
-                        IsBlankOrError(
-                            LookUp('Movies and TV App', Title = MovieSearchInput.Text)
-                        ),
-                        Set(SearchMovie, GetMovieByTitle.Run(MovieSearchInput.Text));
-                        Set(SelectedMovie, SearchMovie);
-                        Set(OnList, false);
-                        Navigate(DetailedView),
-                        Set(AlreadyExistErrorVis, true)
-                    );
+                        IsBlankOrError(MovieSearchInput.Text),
+                        Set(EmptyErrorVis, true),
+                        If(
+                            IsBlankOrError(LookUp('Movies and TV App', Title = MovieSearchInput.Text)),
+                            Set(SearchMovie, GetMovieByTitle.Run(MovieSearchInput.Text));
+                            Set(SelectedMovie, SearchMovie);
+                            Set(OnList, false);
+                            Navigate(DetailedView),
+                            Set(AlreadyExistErrorVis, true)
+                        )
+                    )
+                    
+                    
                 Text: ="Search"
                 Width: =120
                 X: =1193
