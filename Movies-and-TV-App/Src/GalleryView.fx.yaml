@@ -147,12 +147,12 @@
                         EmptyErrorVis, 
                         "Title cannot be empty.",
                         AlreadyExistErrorVis,
-                        "This Movie is already exist in the list.",
+                        "This movie is already exist in the list.",
                         NotFoundErrorVis,
-                        "This Movie is not found, please try again."
+                        "This movie is not found, please try again."
                     )
                 Visible: =AlreadyExistErrorVis || EmptyErrorVis || NotFoundErrorVis
-                Width: =320
+                Width: =400
                 X: =940
                 Y: =120
                 ZIndex: =9
