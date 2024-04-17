@@ -95,7 +95,8 @@
                             Set(SearchMovie, GetMovieByTitle.Run(MovieSearchInput.Text));
                             Set(SelectedMovie, SearchMovie);
                             Set(OnList, false);
-                            Navigate(DetailedView),
+                            Navigate(DetailedView);
+                            Reset(MovieSearchInput),
                             Set(AlreadyExistErrorVis, true)
                         )
                     )
@@ -170,6 +171,16 @@
                 Y: =100
                 ZIndex: =2
 
+                Background As rectangle:
+                    Fill: =RGBA(214, 221, 224, 1)
+                    Height: =300
+                    OnSelect: |-
+                        =Set(SelectedMovie, ThisItem);
+                        Set(OnList, true);
+                        Navigate(DetailedView);
+                    Width: =652
+                    ZIndex: =1
+
                 Poster As image:
                     Height: =300
                     Image: =ThisItem.PosterURL
@@ -183,7 +194,7 @@
                     RadiusTopLeft: =8
                     RadiusTopRight: =8
                     Width: =200
-                    ZIndex: =1
+                    ZIndex: =2
 
                 Year As label:
                     AutoHeight: =true
