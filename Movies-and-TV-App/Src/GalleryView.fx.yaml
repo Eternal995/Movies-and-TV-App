@@ -1,5 +1,7 @@
 "GalleryView As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    OnVisible: =Refresh('Movies and TV App');
+    OnVisible: |-
+        =Refresh('Movies and TV App');
+        ClearCollect(MoviesList, 'Movies and TV App');
 
     GalleryViewWindow As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
