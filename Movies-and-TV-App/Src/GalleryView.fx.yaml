@@ -2,6 +2,7 @@
     OnVisible: |-
         =Refresh('Movies and TV App');
         ClearCollect(MoviesList, 'Movies and TV App');
+        Reset(GallerySearchInput);
 
     GalleryViewWindow As fluidGrid.fluidGridWithBlankCard:
         BorderThickness: =0
@@ -95,8 +96,7 @@
                         Set(EmptyErrorVis, true),
                         If(
                             IsBlankOrError(LookUp('Movies and TV App', Title = MovieSearchInput.Text)),
-                            Set(SearchMovie, GetMovieByTitle.Run(MovieSearchInput.Text));
-                            Set(SelectedMovie, SearchMovie);
+                            Set(SelectedMovie, GetMovieByTitle.Run(MovieSearchInput.Text));
                             Set(OnList, false);
                             Navigate(DetailedView);
                             Reset(MovieSearchInput),
@@ -177,10 +177,6 @@
                 Background As rectangle:
                     Fill: =RGBA(214, 221, 224, 1)
                     Height: =300
-                    OnSelect: |-
-                        =Set(SelectedMovie, ThisItem);
-                        Set(OnList, true);
-                        Navigate(DetailedView);
                     Width: =652
                     ZIndex: =1
 
