@@ -80,6 +80,21 @@
                 Y: =30
                 ZIndex: =1
 
+            Button2 As button:
+                OnSelect: |-
+                    =Patch('Movies and TV App',Defaults('Movies and TV App'), {
+                        Title: SearchMovie.title,
+                        Year: SearchMovie.year,
+                        Genre: SearchMovie.genre,
+                        Actors: SearchMovie.actors,
+                        Plot: SearchMovie.plot,
+                        PosterURL: SearchMovie.posterurl
+                    });
+                Text: ="Add"
+                X: =743
+                Y: =30
+                ZIndex: =2
+
         DataCard3_1 As dataCard.blankCard:
             BorderColor: =RGBA(0, 0, 0, 1)
             BorderStyle: =BorderStyle.Solid
