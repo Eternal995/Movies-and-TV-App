@@ -82,15 +82,15 @@
                 OnSelect: =Set(SearchMovie, GetMovieByTitle.Run(MovieSearch.Text));
                 Text: ="Search"
                 Width: =96
-                X: =670
-                Y: =57
+                X: =556
+                Y: =62
                 ZIndex: =1
 
             MovieSearch As text:
                 Default: ="Search Movie"
                 Height: =42
                 Width: =170
-                X: =374
+                X: =326
                 Y: =52
                 ZIndex: =4
 
@@ -105,8 +105,8 @@
                         PosterURL: SearchMovie.posterurl
                     });
                 Text: ="Add"
-                X: =1113
-                Y: =49
+                X: =1093
+                Y: =58
                 ZIndex: =5
 
         GalleryCard As dataCard.blankCard:
@@ -129,7 +129,11 @@
                 BorderColor: =RGBA(0, 0, 0, 1)
                 DelayItemLoading: =true
                 Height: =1000
-                Items: =Search('Movies and TV App', GallerySearchInput.Text, Title)
+                Items: |-
+                    =Search(
+                        'Movies and TV App',
+                        "123",
+                    )
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =20
