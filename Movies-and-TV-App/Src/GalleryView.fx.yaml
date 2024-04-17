@@ -97,9 +97,13 @@
                         If(
                             IsBlankOrError(LookUp('Movies and TV App', Title = MovieSearchInput.Text)),
                             Set(SelectedMovie, GetMovieByTitle.Run(MovieSearchInput.Text));
-                            Set(OnList, false);
-                            Navigate(DetailedView);
-                            Reset(MovieSearchInput),
+                            If(
+                                SelectedMovie.status = "false", 
+                                Set(NotFoundErrorVis, true), 
+                                Set(OnList, false);
+                                Navigate(DetailedView);
+                                Reset(MovieSearchInput)
+                            ),
                             Set(AlreadyExistErrorVis, true)
                         )
                     )

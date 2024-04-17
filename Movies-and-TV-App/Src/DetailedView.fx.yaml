@@ -183,7 +183,7 @@
                 AutoHeight: =true
                 Size: =26
                 Text: |-
-                    ="Title: " & If(OnList, SelectedMovie.Title, SelectedMovie.Title)
+                    ="Title: " & If(OnList, SelectedMovie.Title, SelectedMovie.title)
                 Width: =800
                 X: =480
                 Y: =50
